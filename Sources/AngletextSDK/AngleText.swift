@@ -20,7 +20,7 @@ public struct TextAngler: View {
     
     public var body: some View {
         Text(theText)
-            .fontWeight(Font.Weight.thin)
+            .fontWeight(Font.Weight.heavy)
             .font(Font.largeTitle)
             .padding()
             .rotationEffect(Angle.degrees(angle))
